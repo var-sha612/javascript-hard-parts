@@ -1,0 +1,17 @@
+Topcis:
+
+Thread Of Execution
+Memory
+
+To run a Function :
+Thread Of Execution
+Memory
+
+Call Stack:
+has global()
+
+3 Core components of Javascript:
+
+Memory - to store data
+Execution Context 
+Call Stack - to track functions we run

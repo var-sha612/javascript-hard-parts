@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function copyArrayAndMultiplyBy2(array) {
+            const output = [];
+            for (let i=0; i < array.length; i++){
+              output.push(array[i] / 2);  
+            }
+            return output;
+        }
+        const myArray = [1,2,3];
+        const result = copyArrayAndMultiplyBy2(myArray);
+        console.log(result)
+    </script>
+</body>
+</html>

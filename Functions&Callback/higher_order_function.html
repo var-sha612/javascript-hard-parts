@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function copyArrayAndManipulate(array, instructions) {
+            const output = [];
+            for (let i=0; i < array.length; i++){
+              output.push(instructions(array[i]));  
+            }
+            return output;
+        }
+        function multiplyBy2(input) {
+            return input * 2;
+        }
+        const result = copyArrayAndManipulate([1,2,3], multiplyBy2);
+        console.log(result)
+    </script>
+</body>
+</html>

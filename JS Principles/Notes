@@ -12,6 +12,6 @@ has global()
 
 3 Core components of Javascript:
 
-Memory - to store data
-Execution Context 
+Global Memory - to store data
+Execution Context - local memory - to run functions
 Call Stack - to track functions we run

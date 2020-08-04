@@ -1,0 +1,41 @@
+http://csbin.io/closures
+
+
+JS IS LEXICAL/STATIC SCOPED LANGUAGE
+
+MOST POPULAR CONCEPT: https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8
+
+NAMES:
+
+CLOSED OVER VARIABLE ENVIRONMENT
+Persistent Lexical StaticScope Referenced Data ( BACKPACK )
+BACKPACK IS RESULT OF LEXICAL SCOPING
+Industry term -> CLOSURE
+
+
+Esoteric concept
+
+Once and memoize (core performance optimization)
+
+All advanced JS concepts depend on closure
+
+Use Case:
+Tic Tac Toe winning state
+
+every time function gets executed -> brand new local memory
+is created in the execution context
+
+if you run again, it is fresh (it doesnt remember anything from previous 
+running)
+
+What if we have permanant memory attached?
+
+A function returning another function has the most powerful feature of JS
+as a bonus
+
+chaining - nicely crafted feature of JS
+
+How does function get that backpack?
+hidden property = [[scope]] -> link to surrounding data
+
+

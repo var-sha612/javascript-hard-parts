@@ -1,3 +1,6 @@
+// http://csbin.io/closures
+// https://github.com/CodesmithLLC/cs-bin-solutions/blob/master/closures.js
+
 // CHALLENGE 1
 function createFunction() {
     function hello() { 

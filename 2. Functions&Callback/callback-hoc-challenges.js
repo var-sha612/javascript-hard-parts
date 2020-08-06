@@ -1,4 +1,5 @@
-// // http://csbin.io/callbacks
+// http://csbin.io/callbacks
+// https://github.com/CodesmithLLC/cs-bin-solutions/blob/master/callbacks.js
 
 // Challenge 1
 function addTwo(num) {

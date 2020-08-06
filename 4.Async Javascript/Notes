@@ -1,7 +1,29 @@
+see intro.png
 Single Threaded Execution
 
 Why we need Async JS?
 Twitter tweets response (we cant wait until we get back all the tweets, we have to display the website in the meantime)
 Slack Emojis
 
+Resources:
+microtask queue:
+https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+
+JS provides FACADE FUNCTIONS to interact with the browser features
+
+CALLBACK QUEUE VS CALL STACK
+callback queueu wouldnt dequeue into call stack even if we have 
+million console logs
+
+ALL REGULAR CODE RUNS
+callback queue checks this:
+is the callback queue empty
+is the global empty
+
+very fast checking of this type is call EVENT LOOP
+
+CALLBACK HELL
+
+response data is only accessible in the callback function - callback hell
+benefit - super explicit
 

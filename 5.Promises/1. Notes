@@ -1,0 +1,9 @@
+async model vs promises
+In async model there is no consistency(state maintanence) between browser and JS global memory
+everything happens in the browser
+
+we need some sort of tracking back in JS global memory - promise helps us with this
+promise -> when you trigger something in the background, have some sort of 
+
+promise -> two pronged facade function
+one prong in browser and other in JS memory

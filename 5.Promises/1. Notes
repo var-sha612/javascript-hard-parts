@@ -7,3 +7,20 @@ promise -> when you trigger something in the background, have some sort of
 
 promise -> two pronged facade function
 one prong in browser and other in JS memory
+
+fetch - most powerful JS
+
+call stack
+event loop
+
+microtask queue
+callback queue
+
+How does microtask queue work? -> 
+
+facade functions with promise -> microtask queue
+other facade fns -> callback queue
+
+
+then function should be renamed to STORE FUNCTION TO RUN LATER
+

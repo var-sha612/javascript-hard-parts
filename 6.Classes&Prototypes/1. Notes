@@ -1,0 +1,10 @@
+important iq: what new keyword does under the hood? 
+
+object literal
+object with dot notation
+object.create()
+-> this will gives fine grained control over the object
+
+see 4 for reference: we can access newUser inside increment because 
+of backpack
+drawback: we are breaking dry by using increment function twice

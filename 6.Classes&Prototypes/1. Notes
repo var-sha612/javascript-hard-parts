@@ -8,3 +8,5 @@ object.create()
 see 4 for reference: we can access newUser inside increment because 
 of backpack
 drawback: we are breaking dry by using increment function twice
+
+arrow function overrides the normal this rules

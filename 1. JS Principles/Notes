@@ -1,17 +1,15 @@
-Topcis:
+Topics:
 
-Thread Of Execution
-Memory
+Thread Of Execution - goes through code line by line and runs each line
+Memory - saves data like strings or array so we can use it later
 
-To run a Function :
-Thread Of Execution
-Memory
+Core components of Javascript:
 
-Call Stack:
-has global()
-
-3 Core components of Javascript:
-
-Global Memory - to store data
-Execution Context - local memory - to run functions
-Call Stack - to track functions we run
+Global Memory 
+- to store data
+Execution Context 
+- local memory to run functions
+- thread of execution
+Call Stack 
+- to track functions we run
+- has global()
